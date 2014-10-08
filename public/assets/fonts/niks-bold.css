@@ -1,0 +1,26 @@
+/*
+Font: 		Niks
+Style: 		Bold
+URL: 		http://www.youworkforthem.com/font/T3616/niks
+Foundry: 	dooType
+Foundry: 	http://www.youworkforthem.com/designer/315/dootype
+Copyright:	Copyright  2012 by Eduilson Wessler Coan. All rights reserved.
+Version: 	1.4
+Created:	April 19, 2014
+License: 	http://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Niks-Bold';
+	src: url('niks-bold.eot');
+	src: url('niks-bold.eot?#iefix') format('embedded-opentype'),
+	     url('niks-bold.woff') format('woff'),
+	     url('niks-bold.ttf') format('truetype'),
+	     url('niks-bold.svg#ywftsvg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
