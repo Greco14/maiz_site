@@ -1,13 +1,61 @@
+@font-face {
+  font-family: "bold";
+  src: url("../assets/fonts/niks-bold.eot");
+  src: url("../assets/fonts/niks-bold.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-bold.woff") format("woff"), url("../assets/fonts/niks-bold.ttf") format("truetype"), url("../assets/fonts/niks-bold.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "bolditalic";
+  src: url("../assets/fonts/niks-bold-italic.eot");
+  src: url("../assets/fonts/niks-bold-italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-bold-italic.woff") format("woff"), url("../assets/fonts/niks-bold-italic.ttf") format("truetype"), url("../assets/fonts/niks-bold-italic.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "light";
+  src: url("../assets/fonts/niks-light.eot");
+  src: url("../assets/fonts/niks-light.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-light.woff") format("woff"), url("../assets/fonts/niks-light.ttf") format("truetype"), url("../assets/fonts/niks-light.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "light-italic";
+  src: url("../assets/fonts/niks-light-italic.eot");
+  src: url("../assets/fonts/niks-light-italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-light-italic.woff") format("woff"), url("../assets/fonts/niks-light-italic.ttf") format("truetype"), url("../assets/fonts/niks-light-italic.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "normal";
+  src: url("../assets/fonts/niks-normal.eot");
+  src: url("../assets/fonts/niks-normal.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-normal.woff") format("woff"), url("../assets/fonts/niks-normal.ttf") format("truetype"), url("../assets/fonts/niks-normal.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "normal-italic";
+  src: url("../assets/fonts/niks-normal-italic.eot");
+  src: url("../assets/fonts/niks-normal-italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-normal-italic.woff") format("woff"), url("../assets/fonts/niks-normal-italic.ttf") format("truetype"), url("../assets/fonts/niks-normal-italic.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "thin";
+  src: url("../assets/fonts/niks-thin.eot");
+  src: url("../assets/fonts/niks-thin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-thin.woff") format("woff"), url("../assets/fonts/niks-thin.ttf") format("truetype"), url("../assets/fonts/niks-thin.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "Niks-ThinItalic";
+  src: url("../assets/fonts/niks-thin-italic.eot");
+  src: url("../assets/fonts/niks-thin-italic.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/niks-thin-italic.woff") format("woff"), url("../assets/fonts/niks-thin-italic.ttf") format("truetype"), url("../assets/fonts/niks-thin-italic.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 nav {
   width: 190px;
   height: 100px;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #FFF;
   overflow: hidden; }
   nav p {
-    color: white; }
+    color: #fff; }
   nav #logo {
     width: 152px;
     height: 70px;
@@ -47,16 +95,40 @@ nav {
         nav .wrapp-nav .links .innerLinks p {
           color: #1f1f1e; }
 
+.top-hold {
+  width: 100%;
+  height: 70%;
+  position: relative; }
+  .top-hold .halfs {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left; }
+    .top-hold .halfs#grupo_home {
+      background-color: red; }
+    .top-hold .halfs#servicio_home {
+      background-color: yellow; }
+
+.bottom-hold {
+  width: 100%;
+  height: 30%;
+  position: relative; }
+  .bottom-hold .thirds {
+    width: 33.3%;
+    height: 50%;
+    float: left;
+    position: relative; }
+
 html, body {
   margin: 0 auto;
-  min-width: 320px;
+  min-width: 1024px;
   width: 100%;
-  min-height: 630px;
+  min-height: 800px;
   height: 100%;
-  font-family: helvetica; }
+  font-family: "normal"; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
-  color: #1c5ea6;
+  color: #1C5EA6;
   text-decoration: none; }
 
 p {
@@ -66,12 +138,12 @@ sub {
   font-size: 10px;
   top: -8px;
   position: relative;
-  color: white;
+  color: #fff;
   left: -3px;
-  font-family: helvetica; }
+  font-family: "normal"; }
 
 h2, h3 {
-  font-family: helvetica;
+  font-family: "normal";
   font-size: 18px;
   margin: 0 auto; }
 
@@ -79,8 +151,8 @@ h1 {
   text-align: left;
   margin: 0;
   font-size: 95px;
-  color: white;
-  font-family: helvetica;
+  color: #fff;
+  font-family: "normal";
   line-height: 98px; }
 
 ul {
@@ -88,7 +160,7 @@ ul {
   list-style: none; }
 
 ul li {
-  font-family: helvetica;
+  font-family: "normal";
   font-size: 13px;
   line-height: 19px;
   text-indent: -5px; }
@@ -128,4 +200,7 @@ input {
   height: 100%;
   position: relative;
   margin: 0 auto;
-  background-color: #1c5ea6; }
+  background-color: #1C5EA6; }
+  #wrapper .safeArea {
+    width: 1024px;
+    height: 100%; }

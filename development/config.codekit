@@ -2,15 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
-	"\/development\/sass\/_fonts.sass": {
+	"\/sass\/_nav.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/sass\/_fonts.sass",
-		"outputAbbreviatedPath": "\/development\/css\/_fonts.css",
+		"inputAbbreviatedPath": "\/sass\/_nav.sass",
+		"outputAbbreviatedPath": "\/css\/_nav.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -18,15 +18,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/development\/sass\/_home.sass": {
+	"\/sass\/_vars.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/sass\/_home.sass",
-		"outputAbbreviatedPath": "\/development\/css\/_home.css",
+		"inputAbbreviatedPath": "\/sass\/_vars.sass",
+		"outputAbbreviatedPath": "\/css\/_vars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -34,15 +34,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/development\/sass\/_nav.sass": {
+	"\/sass\/main.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/sass\/_nav.sass",
-		"outputAbbreviatedPath": "\/development\/css\/_nav.css",
+		"inputAbbreviatedPath": "\/sass\/main.sass",
+		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -50,231 +50,82 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/development\/sass\/_vars.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/sass\/_vars.sass",
-		"outputAbbreviatedPath": "\/development\/css\/_vars.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/development\/sass\/main.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 2,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/sass\/main.sass",
-		"outputAbbreviatedPath": "\/public\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/development\/scripts\/gui\/_nav.js": {
+	"\/scripts\/gui\/_nav.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/scripts\/gui\/_nav.js",
-		"outputAbbreviatedPath": "\/development\/scripts\/gui\/min\/_nav-ck.js",
+		"inputAbbreviatedPath": "\/scripts\/gui\/_nav.js",
+		"outputAbbreviatedPath": "\/scripts\/gui\/min\/_nav-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/development\/scripts\/main.js": {
+	"\/scripts\/main.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/scripts\/main.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/development\/scripts\/vendor\/min\/vendor.bundle-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/scripts\/vendor\/min\/vendor.bundle-ck.js",
-		"outputAbbreviatedPath": "\/development\/scripts\/vendor\/min\/min\/vendor.bundle-ck-ck.js",
+		"inputAbbreviatedPath": "\/scripts\/main.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/development\/scripts\/vendor\/vendor.bundle.js": {
+	"\/scripts\/vendor\/min\/vendor.bundle-ck.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/scripts\/vendor\/vendor.bundle.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.bundle-min.js",
+		"inputAbbreviatedPath": "\/scripts\/vendor\/min\/vendor.bundle-ck.js",
+		"outputAbbreviatedPath": "\/scripts\/vendor\/min\/min\/vendor.bundle-ck-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/development\/views\/includes\/_heads.jade": {
+	"\/scripts\/vendor\/vendor.bundle.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/vendor\/vendor.bundle.js",
+		"outputAbbreviatedPath": "\/scripts\/vendor\/min\/vendor.bundle-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/views\/includes\/_nav.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/_heads.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/_heads.html",
+		"inputAbbreviatedPath": "\/views\/includes\/_nav.jade",
+		"outputAbbreviatedPath": "\/views\/includes\/_nav.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/development\/views\/includes\/_nav.jade": {
+	"\/views\/includes\/_scripts.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/_nav.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/_nav.html",
+		"inputAbbreviatedPath": "\/views\/includes\/_scripts.jade",
+		"outputAbbreviatedPath": "\/views\/includes\/_scripts.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
-	"\/development\/views\/includes\/_scripts.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/_scripts.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/_scripts.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/development\/views\/includes\/home\/_home.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/includes\/home\/_home.jade",
-		"outputAbbreviatedPath": "\/development\/views\/includes\/home\/_home.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0
-		},
-	"\/development\/views\/index.jade": {
+	"\/views\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/development\/views\/index.jade",
-		"outputAbbreviatedPath": "\/public\/index.html",
+		"inputAbbreviatedPath": "\/views\/index.jade",
+		"outputAbbreviatedPath": "\/views\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
-		},
-	"\/public\/assets\/fonts\/niks-bold.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/assets\/fonts\/niks-bold.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/assets\/images\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10484,
-		"inputAbbreviatedPath": "\/public\/assets\/images\/logo.png",
-		"outputAbbreviatedPath": "\/public\/assets\/images\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/public\/css\/main.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/css\/main.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/public\/scripts\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/main-min.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/min\/main-min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/scripts\/vendor\/jquery-2.1.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery-2.1.1.min.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery-2.1.1.min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/scripts\/vendor\/jquery.easing.1.3.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/jquery.easing.1.3.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/jquery.easing.1.3-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/scripts\/vendor\/modernizr.custom.25133.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/modernizr.custom.25133.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/modernizr.custom.25133-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/scripts\/vendor\/TweenMax.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/TweenMax.min.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/TweenMax.min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/scripts\/vendor\/vendor.bundle-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/scripts\/vendor\/vendor.bundle-min.js",
-		"outputAbbreviatedPath": "\/public\/scripts\/vendor\/min\/vendor.bundle-min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
@@ -284,15 +135,15 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "maiz_site",
+	"displayValue": "development",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ariel"
+	"iconImageName": "pencil_brown"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
 	"coffeeAutoOutputPathEnabled": 1,
@@ -868,19 +719,19 @@
 	"sassAutoOutputPathStyle": 2,
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
-	"sassDecimalPrecision": 5,
+	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
 	"slimAutoOutputPathStyle": 0,
-	"slimCompileOnly": 0,
+	"slimCompileOnly": 1,
 	"slimLogicless": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
@@ -1049,7 +900,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/public"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "2"
 }
