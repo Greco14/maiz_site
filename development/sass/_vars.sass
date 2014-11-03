@@ -1,20 +1,8 @@
 // colores
-$bullets: #333333
-$gris-claro: #f2f2f2
-$gris-medio: #666666
-$gris-title: #999999
-
-$gris-fondo: #dddddd    
-$gris-icono: #818182
-
-$blanco: #fff
-$negro: #000
-
-$no-negro: #1f1f1e
-$naranja-claro: #ff7733
-$naranja: #ff5e1e
-$salmon: #ff6666
-$rosa: #f8217f
+$azul: #2650a3
+$azul-oscuro: #0a152a
+$naranja: #ec6e05
+$blanco: #ffffff
 
 @mixin is-center()
 	margin: auto
@@ -127,5 +115,15 @@ $rosa: #f8217f
 	-moz-perspective: $deg, $deg2
 	-o-perspective: $deg, $deg2
 	-ms-perspective: $deg, $deg2
+
+@mixin is-cover($param)
+	-webkit-background-size: $param
+	-moz-background-size: $param
+	-o-background-size: $param
+	background-size: $param
+
+
+
+
 	
 	

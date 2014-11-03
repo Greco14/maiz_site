@@ -91,19 +91,17 @@ nav {
         float: left;
         margin-right: 15px;
         left: -10px;
-        opacity: 0; }
+        opacity: 0;
+        cursor: pointer; }
         nav .wrapp-nav .links .innerLinks p {
-          color: #1f1f1e; }
+          color: #0a152a; }
 
 .top-hold {
   width: 100%;
-  height: 70%;
+  height: 50%;
   position: relative; }
   .top-hold .halfs {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    float: left; }
+    height: 100%; }
     .top-hold .halfs#grupo_home {
       background-color: red; }
     .top-hold .halfs#servicio_home {
@@ -111,28 +109,99 @@ nav {
 
 .bottom-hold {
   width: 100%;
-  height: 30%;
+  height: 40%;
   position: relative; }
   .bottom-hold .thirds {
-    width: 33.3%;
-    height: 50%;
-    float: left;
+    height: 50%; }
+    .bottom-hold .thirds:nth-child(odd) {
+      background-color: #FFF; }
+
+footer {
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 1.5%; }
+  footer .safeArea {
     position: relative; }
+    footer .safeArea .legals {
+      width: 280px;
+      padding-left: 15px;
+      padding-top: 10px;
+      float: left; }
+      footer .safeArea .legals p {
+        font-size: 10px;
+        color: #ffffff; }
+    footer .safeArea .logos {
+      width: 640px;
+      height: 36px;
+      position: relative;
+      float: left;
+      margin-top: 10px;
+      margin-left: 15px; }
+      footer .safeArea .logos .img-footer {
+        height: 100%;
+        float: left;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 29px; }
+        footer .safeArea .logos .img-footer#ft_btn-1 {
+          width: 108px;
+          background-image: url("../assets/images/gui/footer/logo1.png"); }
+        footer .safeArea .logos .img-footer#ft_btn-2 {
+          width: 48px;
+          background-image: url("../assets/images/gui/footer/csm.png"); }
+        footer .safeArea .logos .img-footer#ft_btn-3 {
+          width: 57px;
+          background-image: url("../assets/images/gui/footer/sp.png"); }
+        footer .safeArea .logos .img-footer#ft_btn-4 {
+          width: 80px;
+          background-image: url("../assets/images/gui/footer/groma.png"); }
+        footer .safeArea .logos .img-footer#ft_btn-5 {
+          width: 81px;
+          background-image: url("../assets/images/gui/footer/nersu.png"); }
+        footer .safeArea .logos .img-footer#ft_btn-6 {
+          width: 56px;
+          background-image: url("../assets/images/gui/footer/copolis.png");
+          margin-right: 0; }
+    footer .safeArea .sociales {
+      width: 110px;
+      height: 28px;
+      position: relative;
+      float: right;
+      margin-top: 10px;
+      margin-right: 30px; }
+      footer .safeArea .sociales .btn-social {
+        width: 29px;
+        height: 29px;
+        position: relative;
+        float: left;
+        margin-left: 11px; }
+        footer .safeArea .sociales .btn-social img {
+          width: 100%;
+          height: 100%; }
+      footer .safeArea .sociales .fst-soc {
+        margin-left: 0px; }
 
 html, body {
   margin: 0 auto;
-  min-width: 1024px;
+  min-width: 1280px;
   width: 100%;
-  min-height: 800px;
+  min-height: 930px;
   height: 100%;
-  font-family: "normal"; }
+  font-family: "normal";
+  overflow: scroll; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
   color: #1C5EA6;
   text-decoration: none; }
 
 p {
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 35px; }
 
 sub {
   font-size: 10px;
@@ -142,18 +211,22 @@ sub {
   left: -3px;
   font-family: "normal"; }
 
-h2, h3 {
+h2 {
   font-family: "normal";
-  font-size: 18px;
+  font-size: 33px;
+  margin: 0 auto; }
+
+h3 {
+  font-family: "normal";
+  font-size: 30px;
   margin: 0 auto; }
 
 h1 {
   text-align: left;
   margin: 0;
-  font-size: 95px;
-  color: #fff;
-  font-family: "normal";
-  line-height: 98px; }
+  font-size: 60px;
+  color: #ffffff;
+  font-family: "normal"; }
 
 ul {
   padding-left: 22px;
@@ -195,12 +268,49 @@ input {
 .btn-borders {
   border-radius: 5px; }
 
+.hold-bg {
+  min-width: 1280px;
+  width: 100%;
+  min-height: 930px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .hold-bg .top-bg {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background: url("../assets/images/gui/bg_home/top-bg-home.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .hold-bg .bttm-bg {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-color: #0a152a; }
+
+.medios {
+  width: 50%;
+  float: left;
+  position: relative; }
+
+.tercios {
+  width: 33.3%;
+  float: left;
+  position: relative; }
+
+.tercios-big {
+  width: 66.6%;
+  float: left;
+  position: relative; }
+
 #wrapper {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   position: relative;
-  margin: 0 auto;
-  background-color: #1C5EA6; }
+  margin: 0 auto; }
   #wrapper .safeArea {
-    width: 1024px;
+    width: 1280px;
     height: 100%; }
