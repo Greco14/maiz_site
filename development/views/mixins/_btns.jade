@@ -1,0 +1,10 @@
+mixin btns_frame(params)
+	.holderBtn
+		.mainImg(id="#{params.elId}-btn")
+		.hoverInfo
+			p= params.info
+		.squareHold(id="#{params.elId}-square")
+			.lines.top-line
+			.lines.left-line
+			.lines.bottom-line
+			.lines.right-line
