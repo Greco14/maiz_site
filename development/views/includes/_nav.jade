@@ -4,21 +4,12 @@ nav
 		.openMe
 		.wrapp-nav
 			.links
-				.innerLinks
-					p Proyectos
-				.innerLinks
-					p Obras
-				
-				.innerLinks
-					p Servicio
-				.innerLinks
-					p Grupo 
-				
-				.innerLinks
-					p Desarrollo
-				.innerLinks
-					p Blog
-				.innerLinks
-					p Bolsa
-				.innerLinks
-					p Contacto
+				+btns_nav({link:'proyectos', name:'Proyectos'})
+				+btns_nav({link:'obras', name:'Obras'})
+				+btns_nav({link:'servicio', name:'Servicio'})
+				+btns_nav({link:'grupo', name:'Grupo'})
+				+btns_nav({link:'desarrollo', name:'Desarrollo'})
+				+btns_nav({link:'blog', name:'Blog'})
+				+btns_nav({link:'bolsa', name:'Bolsa'})
+				+btns_nav({link:'contacto', name:'Contacto'})
+			

@@ -1,1 +1,1 @@
-Main={init:function(){navigation=new Navigation,navigation.init()}},$(function(){Main.init()});
+Main={init:function(){navigation=new Navigation,navigation.init(),btns_grid=new Btns_grid,btns_grid.init()}},$(function(){Main.init()});

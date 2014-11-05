@@ -53,18 +53,19 @@
   top: 0;
   left: 0; }
 
-.hoverInfo p {
-  font-size: 18px;
-  color: #ffffff; }
+.hoverInfo h3 {
+  color: white;
+  text-align: center;
+  margin-top: 20%; }
 
 .squareHold .lines {
   position: absolute;
-  background-color: blue; }
+  background-color: white; }
 .squareHold .bottom-line, .squareHold .top-line {
-  height: 7px;
+  height: 8px;
   width: 0%; }
 .squareHold .left-line, .squareHold .right-line {
-  width: 7px;
+  width: 8px;
   height: 0%; }
 .squareHold .left-line {
   left: 0;
@@ -82,43 +83,52 @@
 nav {
   width: 100%;
   height: 100px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #FFF;
+  position: relative;
+  background-color: white;
   overflow: hidden; }
   nav p {
-    color: #fff; }
+    color: white; }
   nav #logo {
     width: 152px;
-    height: 70px;
+    height: 76px;
     float: left;
     position: relative;
     margin-top: 20px;
     background-image: url("../assets/images/logo.png");
     background-position: left; }
   nav .wrapp-nav {
-    width: 90%;
-    height: 70px;
+    width: 892px;
+    height: 100%;
     position: absolute;
-    left: 190px;
-    padding-top: 30px; }
+    right: 0px; }
     nav .wrapp-nav .links {
-      width: 500px;
-      height: 70px;
+      width: 100%;
+      height: 100%;
       position: relative;
-      top: 25px;
-      right: 20px;
       float: right;
       display: block; }
       nav .wrapp-nav .links .innerLinks {
+        position: relative;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
         float: left;
-        margin-right: 15px;
-        left: -10px;
+        margin-right: 20px;
+        height: 60px;
         opacity: 1;
         cursor: pointer; }
         nav .wrapp-nav .links .innerLinks p {
-          color: #0a152a; }
+          color: #0a152a;
+          position: relative; }
+        nav .wrapp-nav .links .innerLinks:hover .hoverColor {
+          height: 100%; }
+        nav .wrapp-nav .links .innerLinks .hoverColor {
+          width: 100%;
+          height: 0%;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background-color: #ec6e05; }
 
 .top-hold {
   width: 100%;
@@ -127,48 +137,101 @@ nav {
   .top-hold .halfs {
     height: 100%; }
     .top-hold .halfs#grupo_home {
-      background-color: red; }
+      background-image: url("../assets/images/gui/bg_home/construyendo-bg.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
     .top-hold .halfs#servicio_home {
-      background-color: yellow; }
+      background-image: url("../assets/images/gui/bg_home/servicio-bg.jpg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
 
 .bottom-hold {
   width: 100%;
-  height: 40%;
+  height: 50%;
   position: relative; }
   .bottom-hold .thirds {
     height: 50%; }
     .bottom-hold .thirds:nth-child(odd) {
-      background-color: #FFF; }
+      background-color: white; }
+
+#portafolio_home-btn, #portafolio_home-hover {
+  background-image: url("../assets/images/gui/bg_home/portafolio.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#proyectos_home-btn, #proyectos_home-hover {
+  background-image: url("../assets/images/gui/bg_home/proyectos.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#desarrollo_home-btn, #desarrollo_home-hover {
+  background-image: url("../assets/images/gui/bg_home/desarrollo.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#bolsa_home-btn, #bolsa_home-hover {
+  background-image: url("../assets/images/gui/bg_home/bolsa.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#blog_home-btn, #blog_home-hover {
+  background-image: url("../assets/images/gui/bg_home/blog.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#contacto_home-btn, #contacto_home-hover {
+  background-image: url("../assets/images/gui/bg_home/contacto.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#portafolio_home-hover, #proyectos_home-hover, #desarrollo_home-hover, #bolsa_home-hover, #blog_home-hover, #contacto_home-hover {
+  background-color: #2650a3;
+  background-blend-mode: multiply;
+  opacity: 0; }
 
 footer {
   width: 100%;
-  height: 7%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding-top: 1.5%; }
+  height: 80px;
+  position: relative;
+  background-color: #0a152a; }
   footer .safeArea {
     position: relative; }
     footer .safeArea .legals {
       width: 280px;
       padding-left: 15px;
-      padding-top: 10px;
+      padding-top: 30px;
       float: left; }
       footer .safeArea .legals p {
         font-size: 10px;
-        color: #ffffff; }
+        color: white; }
     footer .safeArea .logos {
       width: 640px;
       height: 36px;
       position: relative;
       float: left;
-      margin-top: 10px;
+      margin-top: 20px;
       margin-left: 15px; }
       footer .safeArea .logos .img-footer {
         height: 100%;
         float: left;
         position: relative;
-        background-position: center;
+        background-position: bottom;
         background-repeat: no-repeat;
         margin-right: 29px; }
         footer .safeArea .logos .img-footer#ft_btn-1 {
@@ -195,7 +258,7 @@ footer {
       height: 28px;
       position: relative;
       float: right;
-      margin-top: 10px;
+      margin-top: 22px;
       margin-right: 30px; }
       footer .safeArea .sociales .btn-social {
         width: 29px;
@@ -206,6 +269,8 @@ footer {
         footer .safeArea .sociales .btn-social img {
           width: 100%;
           height: 100%; }
+        footer .safeArea .sociales .btn-social:hover img {
+          opacity: 0.7; }
       footer .safeArea .sociales .fst-soc {
         margin-left: 0px; }
 
@@ -213,13 +278,13 @@ html, body {
   margin: 0 auto;
   min-width: 1280px;
   width: 100%;
-  min-height: 930px;
+  min-height: 754px;
   height: 100%;
   font-family: "normal";
   overflow: scroll; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
-  color: #1C5EA6;
+  color: #1c5ea6;
   text-decoration: none; }
 
 p {
@@ -231,7 +296,7 @@ sub {
   font-size: 10px;
   top: -8px;
   position: relative;
-  color: #fff;
+  color: white;
   left: -3px;
   font-family: "normal"; }
 
@@ -249,7 +314,7 @@ h1 {
   text-align: left;
   margin: 0;
   font-size: 60px;
-  color: #ffffff;
+  color: white;
   font-family: "normal"; }
 
 ul {
@@ -295,7 +360,7 @@ input {
 .hold-bg {
   min-width: 1280px;
   width: 100%;
-  min-height: 930px;
+  min-height: 754px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -321,7 +386,7 @@ input {
   position: relative; }
 
 .tercios {
-  width: 33.3%;
+  width: 33.33%;
   float: left;
   position: relative; }
 
@@ -332,9 +397,11 @@ input {
 
 #wrapper {
   width: 100%;
-  min-height: 100%;
+  min-height: 754px;
+  height: 100%;
   position: relative;
   margin: 0 auto; }
-  #wrapper .safeArea {
-    width: 1280px;
-    height: 100%; }
+
+.safeArea {
+  width: 1280px;
+  height: 100%; }

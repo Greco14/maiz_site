@@ -1,10 +1,17 @@
 mixin btns_frame(params)
 	.holderBtn
 		.mainImg(id="#{params.elId}-btn")
+		.mainImg(id="#{params.elId}-hover")
 		.hoverInfo
-			p= params.info
+			h3= params.info
 		.squareHold(id="#{params.elId}-square")
 			.lines.top-line
 			.lines.left-line
 			.lines.bottom-line
 			.lines.right-line
+
+mixin btns_nav(params)
+	a(href="/#{params.link}")
+		.innerLinks(id="#{params.link}-nav")
+			.hoverColor
+			p= params.name

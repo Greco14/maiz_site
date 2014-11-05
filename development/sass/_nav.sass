@@ -1,16 +1,14 @@
 nav 
 	width: 100%
 	height: 100px
-	position: absolute
-	top: 0
-	left: 0
+	position: relative
 	background-color: #FFF
 	overflow: hidden
 	p
 		color: #fff
 	#logo
 		width: 152px
-		height: 70px
+		height: 76px
 		float: left
 		position: relative
 		margin-top: 20px
@@ -27,28 +25,40 @@ nav
 	// 	margin-left: 10px
 	// 	cursor: pointer
 	.wrapp-nav
-		width: 90%
-		height: 70px
+		width: 892px
+		height: 100%
 		position: absolute
-		left: 190px
-		padding-top: 30px
-
+		right: 0px
 		.links
-			width: 500px
-			height: 70px
+			width: 100%
+			height: 100%
 			position: relative
-			top: 25px
-			right: 20px
 			float: right
 			display: block
 			.innerLinks
+				position: relative
+				padding-top: 40px
+				padding-left: 10px
+				padding-right: 10px
 				float: left
-				margin-right: 15px
-				left: -10px
+				margin-right: 20px
+				height: 60px
 				opacity: 1
 				cursor: pointer
 				p 
 					color: $azul-oscuro
+					position: relative
+				&:hover
+					.hoverColor
+						height: 100%
+				.hoverColor
+					width: 100%
+					height: 0%
+					position: absolute
+					top: 100%
+					left: 0
+					background-color: $naranja
+
 
 
 
