@@ -15,3 +15,17 @@ mixin btns_nav(params)
 		.innerLinks(id="#{params.link}-nav")
 			.hoverColor
 			p= params.name
+
+mixin btns_Main(params)
+	a(href="#{params.link}")
+		.halfs.medios(id="#{params.elId}")
+			.hold_visible
+				h2.anima-type= params.name
+			.hold_hover
+				.topInfo
+					h3.anima-type= params.name
+				.lineMidle
+				.extractInfo
+					p.anima-type= params.info
+				.conoce_mas
+					p Conoce más

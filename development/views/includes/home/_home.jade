@@ -1,17 +1,24 @@
 .safeArea.center-all
 	.top-hold
-		.halfs.medios#grupo_home
-		.halfs.medios#servicio_home
+		+btns_Main({link:'grupo', elId:'grupo_home', name:'Construyendo Responsablemente', info:'Grupo Maiz es una empresa que busca las mejores opciones que permitan elevar los estándares de calidad de vida.'})
+		+btns_Main({link:'servicio', elId:'servicio_home', name:'Servicio de calidad mundial', info:'Grupo Maiz se especializa en soluciones creativas, rentables y sostenibles para proyectos de diseño... '})
+	
 	.bottom-hold
-		.thirds.tercios#portafolio_home
-			+btns_frame({elId:'portafolio_home', info:'Portafolio'})
-		.thirds.tercios#proyectos_home
-			+btns_frame({elId:'proyectos_home', info:'Proyectos'})
-		.thirds.tercios#desarrollo_home
-			+btns_frame({elId:'desarrollo_home', info:'Desarrollo'})
-		.thirds.tercios#bolsa_home
-			+btns_frame({elId:'bolsa_home', info:'Bolsa de trabajo'})
-		.thirds.tercios#blog_home
-			+btns_frame({elId:'blog_home', info:'Blog'})
-		.thirds.tercios#contacto_home
-			+btns_frame({elId:'contacto_home', info:'Contacto'})
+		a(href="portafolio")
+			.thirds.tercios#portafolio_home
+				+btns_frame({elId:'portafolio_home', info:'Portafolio'})
+		a(href="proyectos")
+			.thirds.tercios#proyectos_home
+				+btns_frame({elId:'proyectos_home', info:'Proyectos'})
+		a(href="desarrollo")
+			.thirds.tercios#desarrollo_home
+				+btns_frame({elId:'desarrollo_home', info:'Desarrollo'})
+		a(href="bolsa-de-trabajo")
+			.thirds.tercios#bolsa_home
+				+btns_frame({elId:'bolsa_home', info:'Bolsa de trabajo'})
+		a(href="blog")
+			.thirds.tercios#blog_home
+				+btns_frame({elId:'blog_home', info:'Blog'})
+		a(href="contacto")
+			.thirds.tercios#contacto_home
+				+btns_frame({elId:'contacto_home', info:'Contacto'})
