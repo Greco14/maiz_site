@@ -18,13 +18,18 @@ Btns_grid.prototype.init = function() {
 Btns_grid.prototype.bind = function() {
 	var self = this,
 		s = self.settings;
-	$('.bottom-hold> a >.tercios').mouseenter(function(){
+	$('.tercios').mouseenter(function(){
 		var el_id= $(this).attr('id');
 		var duracion = 100;
 		var elEse = 'easeOutCubic';
 		var txt= $(this).find('h3');
 
 		txt.css({color:'#ec6e05'});
+		$('.left-line').css({height:0});
+		$('.right-line').css({height:0});
+		$('.top-line').css({width:0});
+		$('.bottom-line').css({width:0});
+
 		$('#'+el_id+'-square >.left-line').stop().animate({height: '100%'}, duracion, elEse, function(){
 			$('#'+el_id+'-square > .bottom-line').stop().animate({width: '100%'}, duracion, elEse, function(){
 				$('#'+el_id+'-square > .right-line').stop().animate({height: '100%'}, duracion, elEse, function(){
@@ -35,7 +40,7 @@ Btns_grid.prototype.bind = function() {
 		$('#'+el_id+'-hover').stop().animate({opacity: 1}, 250, 'easeOutCubic');
 	});
 
-	$('.bottom-hold> a >.tercios').mouseleave(function(){
+	$('.tercios').mouseleave(function(){
 		var el_id= $(this).attr('id');
 		var duracion = 100;
 		var elEse = 'easeOutCubic';
@@ -46,10 +51,7 @@ Btns_grid.prototype.bind = function() {
 			$('#'+el_id+'-square > .right-line').stop().animate({height: '0%'}, duracion, elEse, function(){
 				$('#'+el_id+'-square > .bottom-line').stop().animate({width: '0%'}, duracion, elEse, function(){
 					$('#'+el_id+'-square > .left-line').stop().animate({height: '0%'}, duracion, elEse, function(){
-						$('.left-line').css({height:0});
-						$('.right-line').css({height:0});
-						$('.top-line').css({width:0});
-						$('.bottom-line').css({width:0});
+						
 					});
 				});
 			});

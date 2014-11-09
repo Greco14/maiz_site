@@ -1,0 +1,63 @@
+.proyectsBtns {
+  height: 33.3%; }
+
+#energia_proyectos-btn, #energia_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/energia.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#tileProyectos {
+  width: 66.6%;
+  float: left;
+  position: relative; }
+
+#tileProyectos_proyectos-btn {
+  background-image: url("../assets/images/gui/proyectos/tileProyectos.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#corporativos_proyectos-btn, #corporativos_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/corporativos.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#mision_proyectos-btn, #mision_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/mision.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#naves_proyectos-btn, #naves_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/naves.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#distribucion_proyectos-btn, #distribucion_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/distribucion.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#urbanizacion_proyectos-btn, #urbanizacion_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/urbanizacion.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#parques_proyectos-btn, #parques_proyectos-hover {
+  background-image: url("../assets/images/gui/proyectos/parques.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
