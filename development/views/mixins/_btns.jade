@@ -9,6 +9,24 @@ mixin btns_frame(params)
 			.lines.left-line
 			.lines.bottom-line
 			.lines.right-line
+mixin btns_frame2(params)
+	.holderBtn
+		.mainImg(id="#{params.elId}-btn")
+		.mainImg(id="#{params.elId}-hover")
+		.hoverInfo
+			.mainTitle
+				h3= params.title
+			.bottom_part
+				.lineOrange
+				.copies
+					p= params.info
+				.conoce_mas
+					p Conoce más
+		.squareHold(id="#{params.elId}-square")
+			.lines.top-line
+			.lines.left-line
+			.lines.bottom-line
+			.lines.right-line
 
 mixin btns_nav(params)
 	a(href="/#{params.link}")

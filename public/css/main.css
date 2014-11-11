@@ -53,10 +53,53 @@
   top: 0;
   left: 0; }
 
-.hoverInfo h3 {
-  color: white;
-  text-align: center;
-  margin-top: 20%; }
+.hoverInfo {
+  overflow: hidden; }
+  .hoverInfo h3 {
+    color: white;
+    text-align: center;
+    margin-top: 20%; }
+  .hoverInfo .mainTitle {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    margin-top: 25%; }
+    .hoverInfo .mainTitle h3 {
+      color: white;
+      text-align: center; }
+  .hoverInfo .bottom_part {
+    width: 100%;
+    height: 41%;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.58);
+    opacity: 0; }
+    .hoverInfo .bottom_part .lineOrange {
+      width: 65px;
+      height: 2px;
+      background-color: #ec6e05;
+      position: relative;
+      margin-top: 2px;
+      margin-left: 23px;
+      margin-bottom: 13px; }
+    .hoverInfo .bottom_part .copies {
+      width: 390px;
+      height: 48px;
+      position: relative;
+      margin-left: 23px; }
+      .hoverInfo .bottom_part .copies p {
+        color: white;
+        font-size: 16px;
+        line-height: 18px; }
+    .hoverInfo .bottom_part .conoce_mas {
+      width: 290px;
+      position: relative;
+      margin-left: 23px; }
+      .hoverInfo .bottom_part .conoce_mas p {
+        color: #ec6e05;
+        font-family: "normal-italic";
+        font-size: 16px; }
 
 .squareHold .lines {
   position: absolute;
@@ -192,7 +235,8 @@ nav {
         height: 15px;
         position: relative; }
         .top-hold .halfs .hold_hover .conoce_mas p {
-          color: #ec6e05; }
+          color: #ec6e05;
+          font-family: "normal-italic"; }
       .top-hold .halfs .hold_hover .anima-type {
         position: relative;
         top: 10px;
@@ -355,6 +399,62 @@ nav {
     text-align: center;
     color: white;
     font-size: 14px; }
+
+.serv-hold {
+  height: 100%; }
+  .serv-hold .servicio_single {
+    width: 100%;
+    height: 50%;
+    position: relative; }
+    .serv-hold .servicio_single .hoverInfo h3 {
+      margin-top: 40%; }
+  .serv-hold #ingenieria_servicios .hoverInfo h3 {
+    width: 40%;
+    margin-top: 35%; }
+  .serv-hold .servicio_big {
+    height: 100%; }
+    .serv-hold .servicio_big .hoverInfo h3 {
+      margin-top: 80%; }
+
+#ingenieria_servicios-btn, #ingenieria_servicios-hover {
+  background-image: url("../assets/images/gui/servicio/ingenieria.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#urbanizacion_servicios-btn, #urbanizacion_servicios-hover {
+  background-image: url("../assets/images/gui/servicio/urbanizacion.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#construccion_servicios-btn, #construccion_servicios-hover {
+  background-image: url("../assets/images/gui/servicio/construccion.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#llevame_servicios-btn, #llevame_servicios-hover {
+  background-image: url("../assets/images/gui/servicio/llevame.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#maquinaria_servicios-btn, #maquinaria_servicios-hover {
+  background-image: url("../assets/images/gui/servicio/maquinaria.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#ingenieria_servicios-hover, #urbanizacion_servicios-hover, #construccion_servicios-hover, #llevame_servicios-hover, #maquinaria_servicios-hover {
+  background-color: #2650a3;
+  background-blend-mode: multiply;
+  opacity: 0; }
 
 footer {
   width: 100%;
