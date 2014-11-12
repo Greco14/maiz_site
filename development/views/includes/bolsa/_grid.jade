@@ -1,0 +1,29 @@
+.bolsaHold.safeArea.center-all
+	.bolsa-hold.thirds.tercios#bg_bolsa
+	.bolsa-hold.thirds.tercios
+		.iner-safe
+			h2 Reclutamiento
+			p 
+				| Envíanos tus datos y carga tu currículum
+				| en breve nos comunicaremos contigo.
+			+campos({type:"text", name:"name", place:"Nombre", elId:"name_bolsa"})
+			+campos({type:"email", name:"email", place:"Correo Electrónico", elId:"mail_bolsa"})
+			+textareas({ name:"name", place:"Nombre", elId:"name_bolsa"})
+			.holdUploads
+				p Subir archivo
+				input(type="file",placeholder="No file choosen", class="upMe")
+				input(type="button", name="subir", value="Subir", class="upMe last")
+			.bntEnviar#enviar_solicitud
+				p Enviar
+	.bolsa-hold.thirds.tercios
+		.iner-safe
+			h2 Provedores
+			p 
+				| Si estas interesado en proveer de suministros a nuestra
+				| empresa. Llena los  siguientes datos.
+			+campos({type:"text", name:"name", place:"Nombre", elId:"name-p_bolsa"})
+			+campos({type:"email", name:"email", place:"Correo Electrónico", elId:"mail-p_bolsa"})
+			+campos({type:"email", name:"email", place:"Página Web", elId:"webPage_bolsa"})
+			+textareas({ name:"name", place:"Nombre", elId:"name-p_bolsa"})
+			.bntEnviar#enviar-p_solicitud
+				p Enviar

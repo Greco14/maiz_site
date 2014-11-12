@@ -47,3 +47,13 @@ mixin btns_Main(params)
 					p.anima-type= params.info
 				.conoce_mas
 					p Conoce más
+
+mixin campos(params)
+	input(type="#{params.type}", name="#{params.name}" id="#{params.elId}", placeholder="#{params.place}", class="styleMe")
+
+mixin textareas(params)
+	textarea(name="#{params.name}" id="#{params.elId}", placeholder="#{params.place}", class="styleMe textStyle", rows="4" cols="50")
+
+
+
+

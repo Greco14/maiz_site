@@ -400,6 +400,90 @@ nav {
     color: white;
     font-size: 14px; }
 
+.grupoHold .innerGrupo {
+  width: 100%;
+  height: 1576px !important; }
+  .grupoHold .innerGrupo .slider_grupo {
+    width: 100%;
+    height: 412px;
+    position: relative; }
+    .grupoHold .innerGrupo .slider_grupo .holde_slide {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .grupoHold .innerGrupo .slider_grupo .holde_slide .img_slide {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+        background-repeat: no-repeat;
+        background-position: center; }
+        .grupoHold .innerGrupo .slider_grupo .holde_slide .img_slide#img-1 {
+          background-image: url("../assets/images/gui/grupo/slider.jpg"); }
+  .grupoHold .innerGrupo .holdinfo {
+    width: 100%;
+    height: 1194px;
+    position: relative;
+    background-color: white; }
+    .grupoHold .innerGrupo .holdinfo .safe-in {
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+      padding-top: 25px; }
+      .grupoHold .innerGrupo .holdinfo .safe-in h3 {
+        color: #ec6e05;
+        margin-bottom: 20px; }
+      .grupoHold .innerGrupo .holdinfo .safe-in .lineIt {
+        width: 60px;
+        height: 2px;
+        position: relative;
+        background-color: #ec6e05;
+        margin-bottom: 7px; }
+      .grupoHold .innerGrupo .holdinfo .safe-in p {
+        font-size: 20px;
+        color: black;
+        position: relative;
+        margin-bottom: 30px; }
+      .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando {
+        width: 100%;
+        height: 430px;
+        position: relative;
+        margin-bottom: 30px; }
+        .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .imgHold {
+          width: 354px;
+          height: 422px;
+          position: relative;
+          float: left;
+          margin-right: 60px; }
+          .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .imgHold .laImg {
+            width: 100%;
+            height: 387px;
+            position: relative;
+            margin-bottom: 5px;
+            background-image: url("../assets/images/gui/grupo/senior.jpg"); }
+          .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .imgHold p {
+            color: #ec6e05;
+            font-size: 18px; }
+        .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .txts {
+          width: 512px;
+          position: relative;
+          padding-top: 26px;
+          float: left; }
+          .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .txts p {
+            font-size: 25px;
+            margin-bottom: 45px; }
+          .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .txts .bigs {
+            width: 50%;
+            float: left;
+            position: relative; }
+            .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando .txts .bigs h1 {
+              font-size: 50px;
+              color: #ec6e05;
+              line-height: 55px;
+              font-family: "light"; }
+
 .serv-hold {
   height: 100%; }
   .serv-hold .servicio_single {
@@ -455,6 +539,99 @@ nav {
   background-color: #2650a3;
   background-blend-mode: multiply;
   opacity: 0; }
+
+.bolsaHold .bolsa-hold {
+  height: 100%;
+  background-color: white; }
+  .bolsaHold .bolsa-hold .iner-safe {
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 75px;
+    position: relative; }
+    .bolsaHold .bolsa-hold .iner-safe h2 {
+      color: black;
+      margin-bottom: 30px;
+      text-align: center; }
+    .bolsaHold .bolsa-hold .iner-safe p {
+      color: black;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      margin-bottom: 38px; }
+    .bolsaHold .bolsa-hold .iner-safe .holdUploads {
+      width: 100%;
+      position: relative; }
+      .bolsaHold .bolsa-hold .iner-safe .holdUploads p {
+        color: #636363;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        position: relative;
+        text-align: left; }
+      .bolsaHold .bolsa-hold .iner-safe .holdUploads input.last {
+        width: 80px;
+        float: right; }
+.bolsaHold #bg_bolsa {
+  background-image: url("../assets/images/gui/bolsa/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.contactoHold .contacto-hold {
+  height: 100%;
+  background-color: white; }
+  .contactoHold .contacto-hold .iner-safe {
+    width: 350px;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 75px;
+    position: relative; }
+    .contactoHold .contacto-hold .iner-safe h2 {
+      color: black;
+      margin-bottom: 30px;
+      text-align: left; }
+    .contactoHold .contacto-hold .iner-safe p {
+      color: black;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: left;
+      margin-bottom: 38px; }
+.contactoHold #bg_contacto {
+  background-image: url("../assets/images/gui/contacto/bg.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+input.styleMe, textarea.styleMe {
+  width: 332px;
+  height: 38px;
+  border: 1px solid #2650a3;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #636363; }
+
+textarea.styleMe {
+  height: 88px; }
+
+input:focus, textarea:focus {
+  outline: none; }
+
+.bntEnviar {
+  width: 142px;
+  height: 30px;
+  padding-top: 12px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 35px;
+  background-color: #2650a3;
+  cursor: pointer; }
+  .bntEnviar p {
+    color: white !important;
+    text-align: center !important; }
 
 footer {
   width: 100%;
@@ -578,9 +755,9 @@ ul li {
   line-height: 19px;
   text-indent: -5px; }
 
-input {
-  outline: none;
-  border: none; }
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+  background-color: white !important;
+  color: #636363 !important; }
 
 .autoalpha-0 {
   opacity: 0;

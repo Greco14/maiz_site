@@ -1,0 +1,21 @@
+.contactoHold.safeArea.center-all
+	.contacto-hold.thirds.tercios#bg_contacto
+	.contacto-hold.thirds.tercios
+		.iner-safe
+			h2 Estamos para servirle
+			p Si esta interesado en alguno de nuestros servicios,<br> no dude en mandarnos su mensaje en el siguiente espacio
+			+campos({type:"text", name:"name", place:"Nombre", elId:"name_contacto"})
+			+campos({type:"email", name:"email", place:"Correo Electrónico", elId:"mail_contacto"})
+			+campos({type:"email", name:"web", place:"Página Web", elId:"web_contacto"})
+			+textareas({ name:"name", place:"Nombre", elId:"name_contacto"})
+			.bntEnviar#enviar_solicitud
+				p Enviar
+	.contacto-hold.thirds.tercios
+		.iner-safe
+			h2 Dirección
+			p 
+				| Río Lys 351 <br>
+				| Col. del Valle 66220<br>
+				| Monterrey N.L.<br>
+				| Phone 52+ (81)8124 4200<br>
+				| Fax 52+ (81)8124 4208<br>
