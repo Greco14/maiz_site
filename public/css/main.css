@@ -56,7 +56,7 @@
 .hoverInfo {
   overflow: hidden; }
   .hoverInfo h3 {
-    color: white;
+    color: #ffffff;
     text-align: center;
     margin-top: 20%; }
   .hoverInfo .mainTitle {
@@ -65,7 +65,7 @@
     position: relative;
     margin-top: 25%; }
     .hoverInfo .mainTitle h3 {
-      color: white;
+      color: #ffffff;
       text-align: center; }
   .hoverInfo .bottom_part {
     width: 100%;
@@ -89,7 +89,7 @@
       position: relative;
       margin-left: 23px; }
       .hoverInfo .bottom_part .copies p {
-        color: white;
+        color: #ffffff;
         font-size: 16px;
         line-height: 18px; }
     .hoverInfo .bottom_part .conoce_mas {
@@ -103,7 +103,7 @@
 
 .squareHold .lines {
   position: absolute;
-  background-color: white; }
+  background-color: #ffffff; }
 .squareHold .bottom-line, .squareHold .top-line {
   height: 8px;
   width: 0%; }
@@ -127,10 +127,10 @@ nav {
   width: 100%;
   height: 100px;
   position: relative;
-  background-color: white;
+  background-color: #FFF;
   overflow: hidden; }
   nav p {
-    color: white; }
+    color: #fff; }
   nav #logo {
     width: 152px;
     height: 76px;
@@ -199,7 +199,7 @@ nav {
       left: 50px; }
       .top-hold .halfs .hold_visible h2 {
         font-size: 45px;
-        color: white;
+        color: #ffffff;
         line-height: 45px; }
     .top-hold .halfs .hold_hover {
       width: 280px;
@@ -214,7 +214,7 @@ nav {
         position: relative; }
         .top-hold .halfs .hold_hover .topInfo h3 {
           line-height: 30px;
-          color: white; }
+          color: #ffffff; }
       .top-hold .halfs .hold_hover .lineMidle {
         width: 50px;
         height: 4px;
@@ -227,7 +227,7 @@ nav {
         position: relative;
         margin-bottom: 5px; }
         .top-hold .halfs .hold_hover .extractInfo p {
-          color: white;
+          color: #ffffff;
           font-size: 16px;
           line-height: 18px; }
       .top-hold .halfs .hold_hover .conoce_mas {
@@ -249,7 +249,7 @@ nav {
   .bottom-hold .thirds {
     height: 50%; }
     .bottom-hold .thirds:nth-child(odd) {
-      background-color: white; }
+      background-color: #FFF; }
 
 #portafolio_home-btn, #portafolio_home-hover {
   background-image: url("../assets/images/gui/bg_home/portafolio.jpg");
@@ -381,7 +381,7 @@ nav {
     position: relative;
     text-align: center;
     top: 75px;
-    color: white; }
+    color: #ffffff; }
 
 .line {
   width: 150px;
@@ -397,7 +397,7 @@ nav {
   position: relative; }
   .txtInfo p {
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-size: 14px; }
 
 .grupoHold .innerGrupo {
@@ -426,7 +426,7 @@ nav {
     width: 100%;
     height: 1194px;
     position: relative;
-    background-color: white; }
+    background-color: #ffffff; }
     .grupoHold .innerGrupo .holdinfo .safe-in {
       width: 960px;
       margin: 0 auto;
@@ -443,7 +443,7 @@ nav {
         margin-bottom: 7px; }
       .grupoHold .innerGrupo .holdinfo .safe-in p {
         font-size: 20px;
-        color: black;
+        color: #000000;
         position: relative;
         margin-bottom: 30px; }
       .grupoHold .innerGrupo .holdinfo .safe-in .holdFernando {
@@ -542,7 +542,7 @@ nav {
 
 .bolsaHold .bolsa-hold {
   height: 100%;
-  background-color: white; }
+  background-color: #ffffff; }
   .bolsaHold .bolsa-hold .iner-safe {
     width: 350px;
     margin: 0 auto;
@@ -550,11 +550,11 @@ nav {
     padding-top: 75px;
     position: relative; }
     .bolsaHold .bolsa-hold .iner-safe h2 {
-      color: black;
+      color: #000000;
       margin-bottom: 30px;
       text-align: center; }
     .bolsaHold .bolsa-hold .iner-safe p {
-      color: black;
+      color: #000000;
       font-size: 16px;
       line-height: 19px;
       text-align: center;
@@ -580,7 +580,7 @@ nav {
 
 .contactoHold .contacto-hold {
   height: 100%;
-  background-color: white; }
+  background-color: #ffffff; }
   .contactoHold .contacto-hold .iner-safe {
     width: 350px;
     margin: 0 auto;
@@ -588,11 +588,11 @@ nav {
     padding-top: 75px;
     position: relative; }
     .contactoHold .contacto-hold .iner-safe h2 {
-      color: black;
+      color: #000000;
       margin-bottom: 30px;
       text-align: left; }
     .contactoHold .contacto-hold .iner-safe p {
-      color: black;
+      color: #000000;
       font-size: 16px;
       line-height: 19px;
       text-align: left;
@@ -630,7 +630,7 @@ input:focus, textarea:focus {
   background-color: #2650a3;
   cursor: pointer; }
   .bntEnviar p {
-    color: white !important;
+    color: #ffffff !important;
     text-align: center !important; }
 
 footer {
@@ -647,7 +647,7 @@ footer {
       float: left; }
       footer .safeArea .legals p {
         font-size: 10px;
-        color: white; }
+        color: #ffffff; }
     footer .safeArea .logos {
       width: 640px;
       height: 36px;
@@ -712,7 +712,7 @@ html, body {
   overflow: scroll; }
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input {
-  color: #1c5ea6;
+  color: #1C5EA6;
   text-decoration: none; }
 
 p {
@@ -724,7 +724,7 @@ sub {
   font-size: 10px;
   top: -8px;
   position: relative;
-  color: white;
+  color: #fff;
   left: -3px;
   font-family: "normal"; }
 
@@ -742,7 +742,7 @@ h1 {
   text-align: left;
   margin: 0;
   font-size: 60px;
-  color: white;
+  color: #ffffff;
   font-family: "normal"; }
 
 ul {
@@ -756,7 +756,7 @@ ul li {
   text-indent: -5px; }
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
-  background-color: white !important;
+  background-color: #ffffff !important;
   color: #636363 !important; }
 
 .autoalpha-0 {
